@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'distancia = pkg2.distancia:main',
         ],
     },
 )
